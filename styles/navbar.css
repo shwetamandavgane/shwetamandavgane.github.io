@@ -15,7 +15,7 @@
   cursor: pointer;
   display: inline;
   padding-right: 1%;
-  width: inherit;
+  width: fit-content;
   height: inherit;
 }
 
@@ -27,6 +27,7 @@
   text-decoration: blanchedalmond;
   font-size: 1em;
   font-weight: bold;
+  width: fit-content;
 }
 
 /*First Pseudo element*/
