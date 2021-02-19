@@ -1,7 +1,7 @@
 .project-image-div {
   overflow: auto;
   word-wrap: break-word;
-  flex: 60%;
+  flex: auto;
   z-index: 2;
   position: fixed;
   margin-top: 3%;
@@ -69,7 +69,7 @@ h5 {
     flex: auto;
     z-index: 2;
     position: fixed;
-    margin-top: 20%;
+    margin-top: 30%;
     margin-left: inherit;
     width: auto;
     text-align: left;
