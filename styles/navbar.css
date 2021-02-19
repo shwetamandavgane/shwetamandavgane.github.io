@@ -1,0 +1,42 @@
+/*********NavBar styling starts*/
+.nav {
+  flex: 7%;
+  z-index: 1;
+  position: fixed;
+  margin-top: 0;
+  text-align: center;
+  align-content: center;
+  width: 50%;
+  height: auto;
+  background-color: #7baeaf;
+}
+
+.nav li {
+  cursor: pointer;
+  display: inline;
+  padding-right: 1%;
+  width: inherit;
+  height: inherit;
+}
+
+.nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 0.4%;
+  text-decoration: blanchedalmond;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/*First Pseudo element*/
+.nav a:hover {
+  background: #5f9ea0;
+  color: black;
+}
+
+.nav .current {
+  background: teal;
+  color: black;
+}
+/*********NavBar styling ends*/

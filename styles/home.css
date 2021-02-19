@@ -1,0 +1,65 @@
+.home-image-span {
+  word-wrap: break-word;
+  flex: auto;
+  z-index: 2;
+  position: fixed;
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 50%;
+  text-align: left;
+  height: 85%;
+}
+
+.myname {
+  position: relative;
+  float: center;
+  margin-left: 3%;
+  padding-left: 8%;
+  font-size: 1.5em;
+  font-style: italic;
+  color: teal;
+}
+
+@media screen and (max-width: 600px) {
+  .home-image-span {
+    word-wrap: break-word;
+    flex: auto;
+    z-index: 2;
+    position: fixed;
+    margin-top: 20%;
+    margin-left: inherit;
+    width: auto;
+    text-align: left;
+    height: auto;
+    overflow: scroll;
+  }
+}
+
+.myimage {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 80%;
+  height: 60%;
+}
+
+.blink {
+  animation: blinker 2s step-start infinite;
+  text-align: center;
+}
+
+/*Mandatory @media queries*/
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.description {
+  position: relative;
+  margin-top: 2%;
+  margin-left: 15%;
+  width: 80%;
+  height: 60%;
+  text-align: justify;
+}

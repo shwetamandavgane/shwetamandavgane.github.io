@@ -1,0 +1,54 @@
+.education-image-div {
+  overflow: auto;
+  word-wrap: break-word;
+  flex: auto;
+  z-index: 2;
+  position: fixed;
+  margin-top: 3%;
+  margin-left: 3%;
+  width: 45%;
+  text-align: left;
+  height: 90%;
+}
+
+.education-p {
+  text-align: justify;
+  word-wrap: break-word;
+  margin-top: 0%;
+  margin-left: 0%;
+  width: inherit;
+}
+
+.education-h3 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.education-grid-item {
+  margin-left: inherit;
+  background-color: #80cbc4;
+  border: 2px solid #fff;
+  margin-top: 1em;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: inherit;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .education-image-div {
+    word-wrap: break-word;
+    flex: auto;
+    z-index: 2;
+    position: relative;
+    margin-top: 20%;
+    margin-left: auto;
+    width: fit-content;
+    text-align: left;
+    height: auto;
+    overflow: scroll;
+  }
+}

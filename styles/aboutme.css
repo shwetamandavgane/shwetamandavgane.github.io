@@ -1,0 +1,98 @@
+.grid-wrapper {
+  margin-left: auto;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  border-radius: 1em;
+  width: inherit;
+  height: auto;
+  margin-left: inherit;
+  text-align: center;
+}
+
+.grid-item {
+  margin-left: inherit;
+  margin-top: 5%;
+  background-color: #80cbc4;
+  border: 2px solid #fff;
+  padding: 2em;
+  font-size: 1em;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  width: inherit;
+  height: auto;
+}
+
+.aboutme-image-div {
+  overflow: auto;
+  word-wrap: break-word;
+  flex: 60%;
+  z-index: 2;
+  position: fixed;
+  margin-top: 1%;
+  margin-left: 5%;
+  width: 60%;
+  text-align: left;
+  height: 90%;
+}
+
+h3 {
+  margin-left: 10%;
+  font-weight: normal;
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-wrapper {
+    margin-left: auto;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    border-radius: 1em;
+    width: auto;
+    height: auto;
+    margin-left: inherit;
+    text-align: center;
+  }
+
+  .grid-item {
+    margin-left: inherit;
+    margin-top: 5%;
+    background-color: #80cbc4;
+    border: 2px solid #fff;
+    padding: 2em;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+
+  .aboutme-image-div {
+    word-wrap: break-word;
+    flex: auto;
+    z-index: 2;
+    position: fixed;
+    margin-top: 30%;
+    margin-left: auto;
+    width: auto;
+    text-align: left;
+    height: auto;
+    overflow: scroll;
+  }
+}
+
+.aboutme {
+  word-wrap: break-word;
+  text-overflow: scroll;
+  position: relative;
+  float: center;
+  margin-left: 15%;
+  margin-top: 1%;
+  font-size: 1em;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: teal;
+}
