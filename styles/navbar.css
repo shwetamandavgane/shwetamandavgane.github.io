@@ -30,7 +30,7 @@
 }
 
 /*First Pseudo element*/
-.nav li:hover {
+.nav a:hover {
   background: #5f9ea0;
   color: black;
 }
